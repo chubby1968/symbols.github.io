@@ -32,11 +32,11 @@
           <div class="cover-container">
 
             <div id="navbar">
-
               <form>
                 <div class="form-group">
                   <div class="row">
-                    <div class="col-md-6">
+
+                    <div class="col-md-5">
                       <label>Rows</label>
                       <div class="input-group">
                         <span class="input-group-btn">
@@ -44,7 +44,7 @@
                             <span class="glyphicon glyphicon-minus"></span>
                           </button>
                         </span>
-                        <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+                        <input type="text" data-ride="spinner" id="rows" class="form-control input-number" value="1">
                         <span class="input-group-btn">
                           <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
                             <span class="glyphicon glyphicon-plus"></span>
@@ -52,28 +52,39 @@
                         </span>
                       </div>
                     </div>
-                    <div class="col-md-6">
+
+                    <div class="col-md-5">
                       <label>Columns</label>
-                      <input type="text" class="form-control">
+                      <div class="input-group">
+                        <span class="input-group-btn">
+                          <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+                            <span class="glyphicon glyphicon-minus"></span>
+                          </button>
+                        </span>
+                        <input type="text" data-ride="spinner" id="cols" class="form-control input-number" value="3">
+                        <span class="input-group-btn">
+                          <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+                            <span class="glyphicon glyphicon-plus"></span>
+                          </button>
+                        </span>
+                      </div>
                     </div>
                   </div>
+
+                  <div class="col-md-2">
+                    <input type="submit" value="Generate" onClick="generate()">
+                  </div>
+
                 </div>
-              </form>
-
-
-
-              <form action="" method="GET">
-                Rows: <input id="rows" type="text" name="rows" value="1"><br>
-                Columns: <input id="cols" type="text" name="cols" value="3"><br>                
-              </form>
-              <input type="submit" value="Submit" onClick="generate()">
-            </div>
-
-            <div class="inner cover">
-             <div id="home">
-              <p>png<p>
               </div>
+            </form>            
+          </div>
+
+          <div class="inner cover">
+           <div id="home">
+            <p>png<p>
             </div>
+          </div>
 
 <!--           <div class="mastfoot">
             <div class="inner">
