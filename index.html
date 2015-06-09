@@ -85,7 +85,7 @@
 
             <div class="inner cover">
              <div id="home">
-              <p>png2<p>
+              <p>png3<p>
               </div>
             </div>
 
@@ -114,9 +114,9 @@
     }
 
     $('.input-number').keydown(function (e){
-      // $(this).spinner($(this).val());
-      $(this).spinner(2);
       if(e.keyCode == 13){
+        var i = $(this).val();
+        $(this).spinner(i);
         generate();
       }
     })
