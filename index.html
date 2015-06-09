@@ -112,6 +112,14 @@
       var cols = $('#cols').val();
       alert ("Rows: " + rows + ", Cols: " + cols);
     }
+
+    $('.input-number').keydown(function (e){
+      if(e.keyCode == 13){
+        generate();
+      }
+    })
     </SCRIPT>
+
+
   </body>
   </html>
