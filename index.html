@@ -114,7 +114,7 @@
     }
 
     $('.input-number').keydown(function (e){
-      $(this).spinner.change($(this).val());
+      $(this).spinner($(this).val());
       if(e.keyCode == 13){
         generate();
       }
