@@ -85,7 +85,7 @@
 
             <div class="inner cover">
              <div id="home">
-              <p>test2<p>
+              <p>test3<p>
               </div>
             </div>
 
@@ -124,7 +124,7 @@
     $.get('/img/imglist.txt', function(result) {
         var imglist = result.split("\n");
         imglist.each(function() {
-          alert($(this).text());
+          alert($(this).val());
         });
     });    
     </SCRIPT>
