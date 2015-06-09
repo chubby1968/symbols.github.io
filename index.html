@@ -122,11 +122,13 @@
     })
 
     $.get('/img/imglist.txt', function(result) {
-      var imglist = result.split("\n");
+      
+      var imglist = result.split("\n"); // Keys: ints from 0 to length, Vals: Text
+      var num = imglist.length()-1;
 
-      $.each( imglist, function( key, value ) {
-        alert( key + ": " + value );
-      });
+      // $.each( imglist, function( key, value ) {
+      //   alert( key + ": " + value );
+      // });
     });    
     </SCRIPT>
 
