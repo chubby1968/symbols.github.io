@@ -36,7 +36,7 @@
                 Rows: <input type="text" name="rows" value="1"><br>
                 Columns: <input type="text" name="cols" value="3"><br>                
               </form>
-              <input type="submit" value="Submit" onClick="testResults('#myform')">
+              <input type="submit" value="Submit" onClick="testResults()">
             </div>
 
             <div class="inner cover">
@@ -62,8 +62,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <SCRIPT LANGUAGE="JavaScript">
-    function testResults (form) {
-      var TestVar = form.rows.value;
+    function testResults (){
+      var TestVar = '#myform'.rows.value;
       alert ("You typed: " + TestVar);
     }
     </SCRIPT>
