@@ -32,11 +32,11 @@
           <div class="cover-container">
 
             <div id="navbar">
-              <form action="" method="GET">
+              <form id="myform" action="" method="GET">
                 Rows: <input type="text" name="rows" value="1"><br>
-                Columns: <input type="text" name="cols" value="3"><br>
-                <input type="submit" value="Submit" onClick="testResults(this.form)">
+                Columns: <input type="text" name="cols" value="3"><br>                
               </form>
+              <input type="submit" value="Submit" onClick="testResults('#myform')">
             </div>
 
             <div class="inner cover">
