@@ -34,9 +34,9 @@
             <div id="navbar">
               <form action="" method="GET">
                 Rows: <input id="rows" type="text" name="rows" value="1"><br>
-                Columns: <input type="text" name="cols" value="3"><br>                
+                Columns: <input id="cols" type="text" name="cols" value="3"><br>                
               </form>
-              <input type="submit" value="Submit" onClick="testResults()">
+              <input type="submit" value="Submit" onClick="generate()">
             </div>
 
             <div class="inner cover">
@@ -62,9 +62,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <SCRIPT LANGUAGE="JavaScript">
-    function testResults (){
-      var TestVar = $('#rows').val();
-      alert ("You typed: " + TestVar);
+    function generate (){
+      var rows = $('#rows').val();
+      var cols = $('#cols').val();
+      alert ("Rows: " + rows + ", Cols: " + cols);
     }
     </SCRIPT>
   </body>
