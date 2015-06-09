@@ -32,8 +32,8 @@
           <div class="cover-container">
 
             <div id="navbar">
-              <form id="myform" action="" method="GET">
-                Rows: <input type="text" name="rows" value="1"><br>
+              <form action="" method="GET">
+                Rows: <input id="rows" type="text" name="rows" value="1"><br>
                 Columns: <input type="text" name="cols" value="3"><br>                
               </form>
               <input type="submit" value="Submit" onClick="testResults()">
@@ -64,7 +64,7 @@
     <SCRIPT LANGUAGE="JavaScript">
     function testResults (){
       alert("asdjk");
-      var TestVar = $('#myform').rows.value;
+      var TestVar = $('#rows').val();
       alert ("You typed: " + TestVar);
     }
     </SCRIPT>
