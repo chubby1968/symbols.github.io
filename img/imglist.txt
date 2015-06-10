@@ -11,5 +11,7 @@ Circle_blank.png
 Cloud.png 
 Cog.png 
 conversation.png 
+Envelope.png 
+Exchange.png 
 Heart.png 
 speech.png 
