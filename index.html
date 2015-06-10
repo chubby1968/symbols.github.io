@@ -131,7 +131,7 @@
       rows = $('#rows').val();
       cols = $('#cols').val();
       genRows();
-    }
+    };
 
     $('.input-number').keydown(function (e){
       if(e.keyCode == 13){
@@ -139,7 +139,7 @@
         $(this).spinner(i);
         generate();
       }
-    })
+    });
 
     $.get('/img/imglist.txt', function(result) {
 
@@ -166,7 +166,7 @@
        </div>
        </div>
        <h3>&nbsp;</h3>');
-    }
+    };
 
     </SCRIPT>
 
