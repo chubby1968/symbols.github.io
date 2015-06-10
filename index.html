@@ -90,9 +90,9 @@
             <div class="inner cover">
              <div id="home">
 
-            </div>
-          </div>
-        </div>
+             </div>
+           </div>
+         </div>
 
 <!--           <div class="mastfoot">
             <div class="inner">
@@ -118,7 +118,7 @@
       rows = $('#rows').val();
       cols = $('#cols').val();
       genRows();
-    };
+    }
 
     $('.input-number').keydown(function (e){
       if(e.keyCode == 13){
@@ -139,7 +139,7 @@
   });
 
     function genRows (){ 
-      
+
       $('#home').html(' ');
 
       for (i = 1; i <= rows; i++) { 
@@ -147,16 +147,26 @@
          '<div class="col-xs-2">' +
          '<p class="bg-primary">Row ' + i + ':</p>' +
          '</div>' +
-         '<div class="col-xs-1">' +
-         '<img class="img-responsive" src="img/a.png">' +
-         '</div>' +
-         '<div class="col-xs-1">' +
-         '<img class="img-responsive" src="img/b.png">' +
-         '</div>' +
+         // '<div class="col-xs-1">' +
+         // '<img class="img-responsive" src="img/a.png">' +
+         // '</div>' +
+         // '<div class="col-xs-1">' +
+         // '<img class="img-responsive" src="img/b.png">' +
+         //'</div>' +
          '</div>' +
          '<h3>&nbsp;</h3>');
+
+        genCols('#row' + i);
       }
-    };
+    }
+
+    function genCols(row){
+      for (i = 1; i <= cols; i++) { 
+        $(row).append('<div class="col-xs-1">' +
+         '<img class="img-responsive" src="img/a.png">' +
+         '</div>');
+      }
+    }
 
     </SCRIPT>
 
