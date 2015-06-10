@@ -1,4 +1,8 @@
-a.png 
-b.png 
+Ban.png 
+Beaker.png 
+Beer.png 
+Bell.png 
+Bolt.png 
+Book.png 
 broken_heart.png 
 Heart.png 
