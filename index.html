@@ -90,19 +90,6 @@
             <div class="inner cover">
              <div id="home">
 
-              <div class="row">
-                <div class="col-md-2">
-                  <p class="bg-primary">Row 1:</p>
-                </div>
-                <div class="col-md-1">
-                  <img class="img-responsive" src="img/a.png">
-                </div>
-                <div class="col-md-1">
-                  <img class="img-responsive" src="img/b.png">
-                </div>
-              </div>
-              <h3>&nbsp;</h3>
-
             </div>
           </div>
         </div>
@@ -152,7 +139,9 @@
   });
 
     function genRows (){ 
-      $('#home').html('');
+      
+      $('#home').html(' ');
+
       for (i = 1; i <= rows; i++) { 
         $('#home').append('<div class="row" id="row' i '">' +
          '<div class="col-md-2">' +
