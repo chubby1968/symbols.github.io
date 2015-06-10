@@ -5,4 +5,11 @@ Bell.png
 Bolt.png 
 Book.png 
 broken_heart.png 
+Check.png 
+Circle.png 
+Circle_blank.png 
+Cloud.png 
+Cog.png 
+conversation.png 
 Heart.png 
+speech.png 
