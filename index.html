@@ -133,10 +133,7 @@
       imglist = result.split("\n"); // Keys: ints from 0 to length, Vals: Text
       num = imglist.length-1;
 
-      // $.each( imglist, function( key, value ) {
-      //   alert( key + ": " + value );
-      // });
-  });
+    });
 
     function genRows (){ 
 
@@ -147,12 +144,6 @@
          '<div class="col-xs-2">' +
          '<p class="bg-primary">Row ' + i + ':</p>' +
          '</div>' +
-         // '<div class="col-xs-1">' +
-         // '<img class="img-responsive" src="img/a.png">' +
-         // '</div>' +
-         // '<div class="col-xs-1">' +
-         // '<img class="img-responsive" src="img/b.png">' +
-         //'</div>' +
          '</div>' +
          '<h3>&nbsp;</h3>');
 
@@ -164,7 +155,7 @@
 
       var range, id, cnum, rid;
       for(range=[],k=num;range[--k]=k;){};
-      cnum = num;
+        cnum = num;
 
       for (k = 1; k <= cols; k++) {
         rid = Math.floor(Math.random() * cnum);
