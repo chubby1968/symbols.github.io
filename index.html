@@ -162,13 +162,13 @@
 
     function genCols(row){
 
-      var range;
+      var range, id;
       for(range=[],k=num;range[--k]=k;){};
-      alert(range);
 
-      for (k = 1; k <= cols; k++) { 
+      for (k = 1; k <= cols; k++) {
+        id = Math.floor(Math.random() * 2);
         $(row).append('<div class="col-xs-1">' +
-         '<img class="img-responsive" src="img/a.png">' +
+         '<img class="img-responsive" src="img/' + imglist[id] + '">' +
          '</div>');
       }
     }
