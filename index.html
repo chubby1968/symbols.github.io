@@ -44,7 +44,7 @@
                             <span class="glyphicon glyphicon-minus"></span>
                           </button>
                         </span>
-                        <input type="text" data-ride="spinner" id="rows" class="form-control input-number text-center" value="1" data-max="10" onClick="this.select();">
+                        <input type="text" data-ride="spinner" id="rows" class="form-control input-number text-center" value="1" data-max="20" onClick="this.select();">
                         <span class="input-group-btn">
                           <button type="button" class="btn btn-info" data-value="increase" data-target="#rows" data-toggle="spinner">
                             <span class="glyphicon glyphicon-plus"></span>
@@ -61,7 +61,7 @@
                             <span class="glyphicon glyphicon-minus"></span>
                           </button>
                         </span>
-                        <input type="text" data-ride="spinner" id="cols" class="form-control input-number text-center" value="3" data-max="10" onClick="this.select();">
+                        <input type="text" data-ride="spinner" id="cols" class="form-control input-number text-center" value="3" data-max="12" onClick="this.select();">
                         <span class="input-group-btn">
                           <button type="button" class="btn btn-info" data-value="increase" data-target="#cols" data-toggle="spinner">
                             <span class="glyphicon glyphicon-plus"></span>
@@ -85,9 +85,16 @@
 
             <div class="inner cover">
              <div id="home">
-              <p>test1<p>
+              <div class="row">
+                <div class="col-md-1">
+                  <img class="img-responsive" src="img/a.jpg">
+                </div>
+                <div class="col-md-1">
+                  <img class="img-responsive" src="img/b.jpg">
+                </div>
               </div>
             </div>
+          </div>
 
 <!--           <div class="mastfoot">
             <div class="inner">
@@ -122,14 +129,14 @@
     })
 
     $.get('/img/imglist.txt', function(result) {
-      
-      var imglist = result.split("\n"); // Keys: ints from 0 to length, Vals: Text
-      var num = imglist.length()-1;
+
+      imglist = result.split("\n"); // Keys: ints from 0 to length, Vals: Text
+      num = imglist.length()-1;
 
       // $.each( imglist, function( key, value ) {
       //   alert( key + ": " + value );
       // });
-    });    
+  });    
     </SCRIPT>
 
 
