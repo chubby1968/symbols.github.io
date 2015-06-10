@@ -151,20 +151,21 @@
       // });
   });
 
-    function genRows (){
-      alert ("Rows: " + rows + ", Cols: " + cols);
-      $('#home').html('<div class="row">' +
-       '<div class="col-md-2">' +
-       '<p class="bg-primary">Row 2:</p>' +
-       '</div>' +
-       '<div class="col-md-1">' +
-       '<img class="img-responsive" src="img/a.png">' +
-       '</div>' +
-       '<div class="col-md-1">' +
-       '<img class="img-responsive" src="img/b.png">' +
-       '</div>' +
-       '</div>' +
-       '<h3>&nbsp;</h3>');
+    function genRows (){      
+      for (i = 1; i <= rows; i++) { 
+        $('#home').html('<div class="row" id="row' i '">' +
+         '<div class="col-md-2">' +
+         '<p class="bg-primary">Row ' i ':</p>' +
+         '</div>' +
+         '<div class="col-md-1">' +
+         '<img class="img-responsive" src="img/a.png">' +
+         '</div>' +
+         '<div class="col-md-1">' +
+         '<img class="img-responsive" src="img/b.png">' +
+         '</div>' +
+         '</div>' +
+         '<h3>&nbsp;</h3>');
+      }
     };
 
     </SCRIPT>
