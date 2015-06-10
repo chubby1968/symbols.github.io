@@ -37,7 +37,7 @@
                   <div class="row">
 
                     <div class="col-md-2"></div>  
-                                        
+
                     <div class="col-md-3">
                       <label>Rows</label>
                       <div class="input-group">
@@ -63,7 +63,7 @@
                             <span class="glyphicon glyphicon-minus"></span>
                           </button>
                         </span>
-                        <input type="text" data-ride="spinner" id="cols" class="form-control input-number text-center" value="3" data-max="12" onClick="this.select();">
+                        <input type="text" data-ride="spinner" id="cols" class="form-control input-number text-center" value="3" data-max="10" onClick="this.select();">
                         <span class="input-group-btn">
                           <button type="button" class="btn btn-info" data-value="increase" data-target="#cols" data-toggle="spinner">
                             <span class="glyphicon glyphicon-plus"></span>
@@ -137,11 +137,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="bootstrap-spinner.min.js"></script>
+    
     <SCRIPT LANGUAGE="JavaScript">
+    
     function generate (){
-      var rows = $('#rows').val();
-      var cols = $('#cols').val();
-      alert ("Rows: " + rows + ", Cols: " + cols);
+      rows = $('#rows').val();
+      cols = $('#cols').val();
+      genRows();
     }
 
     $('.input-number').keydown(function (e){
@@ -160,7 +162,12 @@
       // $.each( imglist, function( key, value ) {
       //   alert( key + ": " + value );
       // });
-  });    
+  });
+
+    function genRows (){
+      alert ("Rows: " + rows + ", Cols: " + cols);
+    }
+
     </SCRIPT>
 
 
