@@ -131,7 +131,7 @@
     $.get('/img/imglist.txt', function(result) {
 
       imglist = result.split("\n"); // Keys: ints from 0 to length, Vals: Text
-      num = imglist.length()-1;
+      num = imglist.length-1;
 
       // $.each( imglist, function( key, value ) {
       //   alert( key + ": " + value );
