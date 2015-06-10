@@ -151,9 +151,10 @@
       // });
   });
 
-    function genRows (){      
+    function genRows (){ 
+      $('#home').html('');
       for (i = 1; i <= rows; i++) { 
-        $('#home').html('<div class="row" id="row' i '">' +
+        $('#home').append('<div class="row" id="row' i '">' +
          '<div class="col-md-2">' +
          '<p class="bg-primary">Row ' i ':</p>' +
          '</div>' +
