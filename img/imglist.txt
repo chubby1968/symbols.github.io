@@ -13,5 +13,7 @@ Cog.png
 conversation.png 
 Envelope.png 
 Exchange.png 
+Eye.png 
 Heart.png 
+HP.png 
 speech.png 
