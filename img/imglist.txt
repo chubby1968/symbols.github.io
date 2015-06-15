@@ -13,11 +13,14 @@ Circle.png
 Circle_blank.png 
 Cloud.png 
 Cog.png 
+Coins.png 
 conversation.png 
 Envelope.png 
 Exchange.png 
 Eye.png 
+Ferret.png 
 Fire.png 
+Fish.png 
 Flag.png 
 Food.png 
 Gift.png 
@@ -33,7 +36,9 @@ Leaf.png
 Light_bulb.png 
 Lock.png 
 Magnet.png 
+Map.png 
 Music.png 
+Person.png 
 speech.png 
 Star.png 
 Wand.png 
