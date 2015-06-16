@@ -36,9 +36,9 @@
                 <div class="form-group">
                   <div class="row">
 
-                    <div class="col-sm-2"></div>  
+                    <div class="col-sm-4"></div>  
 
-                    <div class="col-sm-3">
+                    <div class="col-sm-2">
                       <label>Rows</label>
                       <div class="input-group">
                         <span class="input-group-btn">
@@ -55,7 +55,7 @@
                       </div>
                     </div>
 
-                    <div class="col-sm-3">
+                    <div class="col-sm-2">
                       <label>Columns</label>
                       <div class="input-group">
                         <span class="input-group-btn">
@@ -63,7 +63,7 @@
                             <span class="glyphicon glyphicon-minus"></span>
                           </button>
                         </span>
-                        <input type="text" data-ride="spinner" id="cols" class="form-control input-number text-center" value="3" data-max="10" onClick="this.select();">
+                        <input type="text" data-ride="spinner" id="cols" class="form-control input-number text-center" value="3" data-max="11" onClick="this.select();">
                         <span class="input-group-btn">
                           <button type="button" class="btn btn-info" data-value="increase" data-target="#cols" data-toggle="spinner">
                             <span class="glyphicon glyphicon-plus"></span>
@@ -73,14 +73,14 @@
                     </div>
 
 
-                    <div class="col-sm-2">
+                    <div class="col-sm-1">
                       <br>
                       <button type="button" class="btn btn-primary btn-lg" onclick="generate()">
                         <span aria-hidden="true"></span> Go!
                       </button>                  
                     </div>
 
-                    <div class="col-sm-2"></div>  
+                    <div class="col-sm-3"></div>  
 
                   </div>
                 </div>
@@ -142,8 +142,8 @@
 
       for (i = 1; i <= rows; i++) { 
         $('#home').append('<div class="row" id="row' + i + '">' +
-         '<div class="col-xs-2">' +
-         '<p class="bg-primary">Row ' + i + ':</p>' +
+         '<div class="col-xs-1">' +
+         '<h5 class="bg-primary">Row ' + i + ':</h5>' +
          '</div>' +
          '</div>' +
          '<h3>&nbsp;</h3>');
