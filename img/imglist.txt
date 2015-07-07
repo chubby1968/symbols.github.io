@@ -1,3 +1,5 @@
+Angel.png 
+Axe.png 
 Ban.png 
 Beaker.png 
 Beer.png 
@@ -6,6 +8,7 @@ Bird.png
 Boat.png 
 Bolt.png 
 Book.png 
+Bow.png 
 broken_heart.png 
 Bug.png 
 Butterfly.png 
@@ -45,6 +48,7 @@ Language.png
 Leaf.png 
 Light_bulb.png 
 Lock.png 
+Magic_hat.png 
 Magnet.png 
 Magnifying_glass.png 
 Map.png 
@@ -64,6 +68,8 @@ speech.png
 Spider.png 
 Star.png 
 Swimming.png 
+Sword.png 
+Swords_crossed.png 
 Tent.png 
 Thundercloud.png 
 Wand.png 
