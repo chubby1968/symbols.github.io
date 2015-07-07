@@ -1,4 +1,5 @@
 Angel.png 
+Arrows-eight.png 
 Axe.png 
 Ban.png 
 Beaker.png 
@@ -21,6 +22,7 @@ Cog.png
 Coins.png 
 conversation.png 
 Dice.png 
+Drama.png 
 Envelope.png 
 Exchange.png 
 Eye.png 
@@ -31,11 +33,13 @@ Fist.png
 Flag.png 
 Flower.png 
 Food.png 
+Footprints.png 
 Gift.png 
 Glass.png 
 Globe.png 
 Group.png 
 Hammer.png 
+happy.png 
 Heart.png 
 Highheels.png 
 House.png 
@@ -52,6 +56,7 @@ Magic_hat.png
 Magnet.png 
 Magnifying_glass.png 
 Map.png 
+Moon.png 
 Mountain.png 
 Mummy.png 
 Music.png 
@@ -59,11 +64,15 @@ Paint.png
 Person.png 
 Pick.png 
 Planet.png 
+Question_mark.png 
 Roadsigns.png 
 Robot.png 
 Running.png 
+sad.png 
+Scales.png 
 Shield.png 
 Skull.png 
+sleeping.png 
 speech.png 
 Spider.png 
 Star.png 
@@ -72,5 +81,7 @@ Sword.png
 Swords_crossed.png 
 Tent.png 
 Thundercloud.png 
+Time.png 
 Wand.png 
+Watchtower.png 
 Web.png 
